@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>User Login</title>
+    <link rel="icon" type="image/png" href="cdgi.jpg">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div>
+                <img src="cdgi.jpg" alt="CDGI Logo">
+            </div>
+            <div>
+                <h1>Chameli Devi Group of Institutions, Indore</h1>
+                <h2>User Login Portal</h2>
+            </div>
+            <div>
+                <img src="anime girl.jpg" alt="User Avatar">
+            </div>
+        </div>
+
+        <div class="navbar">
+            <a href="index.html"><i class="fa-solid fa-house"></i></a>
+            <a href="contact.html"><i class="fa-solid fa-envelope"></i></a>
+            <a href="admin_login.html"><i class="fa-solid fa-user-shield"></i></a>
+            <a href="user_login.html" class="active"><i class="fa-solid fa-user"></i></a>
+            <a href="sign_up.html"><i class="fa-solid fa-user-plus"></i></a>
+        </div>
+    </header>
+
+    <div class="row">
+        <div class="side">
+            <ul>
+                <li><a href="https://github.com/ayushx20-dev"><i class="fa-brands fa-github"></i></a></li>
+                <li><a href="https://www.linkedin.com/in/ayush-maheshwari-b6624435b/"><i
+                            class="fa-brands fa-linkedin"></i></a></li>
+                <li><a href="https://www.instagram.com/ayushh__x20/"><i class="fa-brands fa-instagram"></i></a></li>
+                <li><a href="https://www.google.com/"><i class="fa-brands fa-google"></i></a></li>
+            </ul>
+        </div>
+
+        <div class="main">
+            <h2>User Login</h2>
+            <p>Welcome back! Please login to continue.</p>
+
+            <form action="#" method="post" class="user-login-form">
+                <label for="email">Email ID</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="Enter your password" required>
+
+                <button type="submit" class="btn-submit">
+                    <i class="fa-solid fa-right-to-bracket"></i> Login
+                </button>
+
+                <div class="login-links">
+                    <a href="#">Forgot Password?</a> |
+                    <a href="sign_up.html">Create New Account</a>
+                </div>
+            </form>
+
+            <div class="login-note">
+                <h3>Student Access Only</h3>
+                <p>This portal is for students and authorized users of Chameli Devi Group of Institutions, Indore.
+                    For admin access, please use the <a href="admin_login.html">Admin Login</a> page.</p>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer">
+            <p>© Designed & Developed by Vaishnavi Soni, B.Tech CSE Student, CDGI, Indore</p>
+        </div>
+    </footer>
+</body>
+
+</html>
